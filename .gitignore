@@ -1,0 +1,21 @@
+# Exclude specific folders
+own_things/
+z_not_useful/
+
+# IDE files
+.metadata/
+*.launch
+*.tmp
+*.bak
+
+# Build files
+Debug/
+Release/
+*.o
+*.elf
+*.bin
+*.hex
+
+# Mac OS files
+._*
+.DS_Store
