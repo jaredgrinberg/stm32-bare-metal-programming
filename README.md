@@ -90,6 +90,12 @@ Each project folder contains:
 4. Connect STM32F401RE Nucleo board
 5. Build and debug
 
+## Notes
+
+This repo does **not** include every STM32F4 support file.  
+To build the projects, make sure you have CMSIS device headers and any missing chip-specific files installed in your STM32CubeIDE environment.  
+If something is missing, you can add it manually from the official [STMicroelectronics STM32F4 CMSIS package](https://www.st.com/en/embedded-software/stm32cubef4.html).
+
 ## Documentation
 
 Reference materials included:
